@@ -1,0 +1,6 @@
+# function applies logistic function to a real valued input vector x
+def sigmoid(X):
+   # Compute the sigmoid function
+   den = 1.0 + e ** (-1.0 * X)
+   d = 1.0 / den
+   return d
